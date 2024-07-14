@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/willswinson/code/HelloWorld/HelloWorld.csproj": {}
+    "C:\\Users\\Will Infinite\\Desktop\\code\\c#\\HelloWorldProj\\HelloWorld.csproj": {}
   },
   "projects": {
-    "/Users/willswinson/code/HelloWorld/HelloWorld.csproj": {
+    "C:\\Users\\Will Infinite\\Desktop\\code\\c#\\HelloWorldProj\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/willswinson/code/HelloWorld/HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\Will Infinite\\Desktop\\code\\c#\\HelloWorldProj\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "/Users/willswinson/code/HelloWorld/HelloWorld.csproj",
-        "packagesPath": "/Users/willswinson/.nuget/packages/",
-        "outputPath": "/Users/willswinson/code/HelloWorld/obj/",
+        "projectPath": "C:\\Users\\Will Infinite\\Desktop\\code\\c#\\HelloWorldProj\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\Will Infinite\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Will Infinite\\Desktop\\code\\c#\\HelloWorldProj\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/willswinson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Will Infinite\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +53,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "automapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             },
             "dapper": {
               "target": "Package",
@@ -84,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/willswinson/.dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
